@@ -23,4 +23,6 @@ get "/:title" do
     erb :show
 end
 
-
+get "/new" do
+    erb :new
+end
