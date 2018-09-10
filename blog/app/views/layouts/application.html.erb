@@ -10,6 +10,26 @@
   </head>
 
   <body>
+  <div id="sidebar">
+    <div id="logo">
+      <%= link_to root_path do %>
+       
+        <% end %>
+    </div>
+
+    <ul>
+      <li class="category">Website</li>
+      <li><%= link_to "Blog", root_path %></li>
+      <li>About</li>
+    </ul> 
+
+    <ul>
+      <li class="category">Social</li>
+      <li><a href="">Github</a></li>
+      <li><a href="">LinkedIn</a></li>
+      <li><a href="">Email</a></li>
+    </ul> 
+  </div>
     <%= yield %>
   </body>
 </html>
